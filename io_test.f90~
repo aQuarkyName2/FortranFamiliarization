@@ -1,0 +1,9 @@
+program fortran_io_tut
+  implicit none
+  logical :: is_pi = .false.
+  real :: myNum
+  print *, "Enter number: "
+  read *, myNum
+
+  
+end program fortran_io_tut
