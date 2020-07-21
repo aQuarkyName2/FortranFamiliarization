@@ -1,6 +1,6 @@
 program fortran_io_tut
   implicit none
-  real, parameter :: PI = 3.14
+  real, parameter :: e = 2.718
   logical :: is_pi = .false.
   real :: myNum = 3.141
   
@@ -10,10 +10,10 @@ program fortran_io_tut
   print *, "Enter number: "
   !  read *, myNum
 
-  if (myNum == PI) then
-     print *, "Is pi!"
+  if (myNum == e) then
+     print *, "Is e!"
   else
-     print *, "Not pi."
+     print *, "Not e."
   end if
 
   ! add pointer testing within feature1 branch
